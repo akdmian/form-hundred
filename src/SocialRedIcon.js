@@ -1,13 +1,12 @@
 import React from 'react';
 import './SocialRedIcon.css';
-import ig from './img/ig/ig.svg';
 
-function SocialRedIcon() {
+function SocialRedIcon(props) {
   return (
     <div>
         
         <div className='social-icon-box'>
-         <a href='#'><img className='social-icon' src={ig}/></a>
+         <a href='#'><img className='social-icon' src={props.src}/></a>
         </div>
 
     </div>

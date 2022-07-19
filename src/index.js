@@ -6,16 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import 'typeface-roboto';
 import MenuBar from './MenuBar';
 import ImageLog from './ImageLog';
-import InputComponent from './InputComponent';
-import SocialRedIcon from './SocialRedIcon';
+import CreateAccountForm from './CreateAccountForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <MenuBar />
     <ImageLog />
-    <InputComponent placeholder='Holi placeholder' />
-    <SocialRedIcon />
+
+    <CreateAccountForm />
     <App />
 
   </React.StrictMode>

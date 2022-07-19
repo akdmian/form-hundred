@@ -1,9 +1,39 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 input {
     border: 1px solid #BDBCBC;
     border-radius: 4px;
     padding: 10px 8px;
+    width: 336px;
 }
 
 input::placeholder {
     color: #747373;
 }
+
+.form-box{
+    max-width: 400px;
+}
+
+.form-box>h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+
+.form-box>p, .form-box>label{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3E3E3E;
+}
+
+.form-box>p>a{
+    text-decoration: none;
+    color: #1C64EB;
+}
+
+
