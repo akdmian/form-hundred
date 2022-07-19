@@ -5,10 +5,10 @@ function BtnMenu(props) {
   return (
     <div>
 
-    <a className='btn-menu' href='#'> {props.tittle} </a>  
+    <a className='btn-menu' href={props.href}> {props.tittle} </a>  
 
     </div>
   )
 }
 
-export default BtnMenu
+export default BtnMenu;
