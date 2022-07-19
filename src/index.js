@@ -1,21 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'typeface-roboto';
 import MenuBar from './MenuBar';
-import ImageLog from './ImageLog';
 import CreateAccountForm from './CreateAccountForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MenuBar />
-    <ImageLog />
-
-    <CreateAccountForm />
-    <App />
+    <div className='main-section'>
+      <MenuBar />
+      <hr/>
+      <CreateAccountForm />
+    </div>
 
   </React.StrictMode>
 );

@@ -9,8 +9,15 @@ input {
     width: 336px;
 }
 
+
+
 input::placeholder {
     color: #747373;
+}
+
+input:focus{
+   outline: 1px solid #747373;
+   color: #3E3E3E; 
 }
 
 .form-box{
@@ -22,6 +29,7 @@ input::placeholder {
     font-size: 18px;
     line-height: 24px;
     color: #3E3E3E;
+    margin-bottom: 24px;
 }
 
 .form-box>p, .form-box>label{
@@ -31,9 +39,9 @@ input::placeholder {
     color: #3E3E3E;
 }
 
+
+
 .form-box>p>a{
     text-decoration: none;
     color: #1C64EB;
 }
-
-

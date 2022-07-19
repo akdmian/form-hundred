@@ -6,7 +6,7 @@ function SocialRedIcon(props) {
     <div>
         
         <div className='social-icon-box'>
-         <a href='#'><img className='social-icon' src={props.src}/></a>
+         <a href={props.href}><img className='social-icon' alt={props.alt} src={props.src}/></a>
         </div>
 
     </div>
