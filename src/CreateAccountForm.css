@@ -1,11 +1,18 @@
+.main-account-form{
+    height: 100vh;
+    overflow: hidden;
+}
+
 .form-section{
     display: flex;
+    height: 100vh;
     
 }
 
 .image-log{
     width: 40%;
-    background-color: aqua;
+    overflow: hidden;
+   
 }
 
 .form-box{
@@ -22,3 +29,20 @@
     margin-top: 80px;
 }
 
+hr{
+    margin: 0px;
+    padding: 0px;
+    opacity: .3;
+  }
+
+
+
+  @media only screen and (max-width: 375px) {
+    .image-log {
+        display: none;
+      }
+
+    .form-box{
+        width: 80%;
+    }
+  }

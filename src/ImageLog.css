@@ -1,3 +1,11 @@
-img {
-    width: 100%;
+
+
+.image-hero-container{
+    width: auto;
+    overflow: hidden;
+}
+
+.image-hero{
+    height: 980px;
+    
 }

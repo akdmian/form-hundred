@@ -1,14 +1,14 @@
 import React from 'react';
 import BtnMenu from './BtnMenu';
-import LogoMenuMain from './LogoMenuMain';
+import {LogoMenuMain} from './LogoMenuMain';
 import "./MenuBarr.css";
 
-function MenuBar() {
+export const MenuBar = () => {
   return (
-    <div>
+    <>
         <section>
             
-            <div>
+            <div className='logo-main-menu'>
                 <LogoMenuMain  />
             </div>
 
@@ -18,8 +18,6 @@ function MenuBar() {
             </div>
         
         </section>
-    </div>
+    </>
   )
-}
-
-export default MenuBar
+};
